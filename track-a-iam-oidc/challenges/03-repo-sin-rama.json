@@ -12,7 +12,7 @@
           "token.actions.githubusercontent.com:aud": "sts.amazonaws.com"
         },
         "StringLike": {
-          "token.actions.githubusercontent.com:sub": "repo:sofiaisha@4275872/rust-chain-lab@1444930732:*"
+          "token.actions.githubusercontent.com:sub": "repo:sofiaisha@4275872/trust-chain-lab@1444930732:*"
         }
       }
     }

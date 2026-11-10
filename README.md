@@ -35,4 +35,4 @@ Ver [`docs/estandares-y-fuentes.md`](docs/estandares-y-fuentes.md): AWS Security
 
 ## Autoría y licencia
 
-Creado por Sofy Romero. Licencia por definir (se propone Apache-2.0). Las opiniones son personales.
+Creado por Sofy Romero. Licencia Apache-2.0 (ver el archivo [`LICENSE`](LICENSE)). Las opiniones son personales.
