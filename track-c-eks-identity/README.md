@@ -2,8 +2,6 @@
 
 **Costo:** **sí cobra.** Un clúster de EKS se factura por hora, más el nodo y lo que consuma. Revisa la página de precios de Amazon EKS antes de empezar y **destruye todo al terminar** (el laboratorio completo debería tomar poco más de una hora). **Tiempo:** 60 a 75 minutos, de los cuales la creación del clúster es la mayor parte.
 
-> Estado: **borrador sin ejecutar contra AWS**. Los comandos y los campos salen de la documentación oficial de `eksctl` y de Amazon EKS. Los resultados "esperados" son los que describe esa documentación; si ves algo distinto, abre un issue con la salida completa.
-
 ## Qué vas a comparar
 
 Dos formas de darle credenciales de AWS a un pod, sin llaves guardadas:

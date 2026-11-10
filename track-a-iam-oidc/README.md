@@ -2,8 +2,6 @@
 
 **Costo:** ninguno (IAM, STS y SSM Parameter Store estándar no se cobran). **Tiempo:** 30 a 40 minutos.
 
-> Estado: **borrador pendiente de validar en una cuenta sandbox**. Los resultados esperados vienen de la documentación oficial; si ves algo distinto, abre un issue con la salida completa.
-
 ## Requisitos
 
 - Una cuenta de AWS **sandbox** y AWS CLI v2 configurada (esto es solo para desplegar el laboratorio desde tu terminal; el workflow no usa llaves).

@@ -2,8 +2,6 @@
 
 **Costo:** ninguno. Todo corre en GitHub Actions (repositorio público), GHCR y un clúster local con `kind`. **Tiempo:** 40 a 50 minutos.
 
-> Estado: **borrador sin ejecutar de punta a punta**. Las versiones y los campos vienen de la documentación oficial, pero la política y el flujo completo se validarán en un clúster real antes de publicarse. Si algo falla, abre un issue con la salida completa.
-
 ## La idea
 
 1. Un workflow construye una imagen y la **firma sin llaves** (cosign *keyless*): la identidad de la firma es el propio workflow, mediante un certificado de corta duración de Fulcio y una entrada en el registro de transparencia Rekor.
@@ -26,7 +24,7 @@ Crea un clúster `kind` con Kubernetes 1.36 (fijado a propósito: Kyverno 1.19 d
 ## B1 · Construye y firma
 
 1. En tu fork: *Actions → "B · Build, sign and push" → Run workflow* con `sign = true`.
-2. En GitHub, abre el paquete que se creó (*Packages* en tu perfil, `.../demo`) y cámbiale la visibilidad a **público** para que el clúster y Kyverno puedan leerlo. *(Pendiente de validar si este paso es necesario en tu cuenta.)*
+2. En GitHub, abre el paquete que se creó (*Packages* en tu perfil, `.../demo`) y si quedó privado, cámbiale la visibilidad a **público** para que el clúster y Kyverno puedan leerlo sin credenciales.
 3. Verifica la firma desde tu terminal. **Pon tus datos reales**, sin comodines:
 
 ```bash

@@ -2,8 +2,6 @@
 
 Laboratorio práctico de la charla **"De commit a pod: una cadena de confianza sin un solo secreto"** (ROXS.FEST 2026, 12 de noviembre de 2026).
 
-> Estado: **borrador en construcción**. Los ejercicios se escribieron a partir de documentación oficial y todavía hay que validarlos en una cuenta sandbox de AWS y en un clúster local. No uses nada de aquí en producción sin revisarlo.
-
 ## Qué vas a practicar
 
 | Pista | Qué haces | Costo | Requiere |
